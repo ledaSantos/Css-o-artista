@@ -29,13 +29,9 @@
   #second a{
     color: #fff;
   }
-  
-  footer {
-    background-color: #333;
-    color: #ddd;
-  }
-  
-  body {
+
+
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #f0f0f0;
     color: #333;
@@ -43,13 +39,6 @@
     padding: 20px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilo do cabeçalho */
 header {
     display: flex;
     justify-content: space-between;
@@ -82,13 +71,19 @@ nav ul li a:hover {
     color: #4CAF50;
 }
 
-/* Estilo principal da página */
+main.l {
+    background-color: #e49756;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 #principal {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 80px;
-    padding: 80px;
+    padding: 40px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -120,82 +115,17 @@ nav ul li a:hover {
     line-height: 1.8;
 }
 
-/* Estilo da seção de cartazes */
 #second {
-    
+    display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.cartaz {
-    text-decoration: none;
-}
-
-.capa {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-}
-
-.capa:hover {
-    transform: scale(1.05);
-}
-
-/* Estilo do rodapé */
 footer {
-    margin-top: 40px;
-    padding: 20px;
     background-color: #333;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
-
-#contato a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-#social a img {
-    width: 30px;
-    margin-left: 10px;
-    transition: opacity 0.2s;
-}
-
-#social a img:hover {
-    opacity: 0.7;
-}
-
-/* Estilo responsivo */
-@media (max-width: 768px) {
-    #principal {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #sec_ctd {
-        max-width: 100%;
-    }
-
-    #second {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .capa {
-        margin-bottom: 20px;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin-bottom: 10px;
-    }
-}
-

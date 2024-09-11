@@ -3,39 +3,34 @@
 .link-menu {
     color: #fff;
     background-color: #555;
-  }
-  
-  .f {
+}
+
+.f {
     background-color: #5b305a;
-  }
-  
-  .l {
+}
+
+.l {
     background-color: #e49756;
-  }
-  
-  .m {
+}
+
+.m {
     background-color: #e04b5a;
-  }
-  
-  main {
+}
+
+main {
     background-color: #333;
     color: #ddd;
-  }
-  
-  h1, h2 {
+}
+
+h1, h2 {
     font-family: 'Amatic SC';
-  }
-  
-  #second a{
+}
+
+#second a {
     color: #fff;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #ddd;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #f0f0f0;
     color: #333;
@@ -43,13 +38,6 @@
     padding: 20px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilo do cabeçalho */
 header {
     display: flex;
     justify-content: space-between;
@@ -82,14 +70,20 @@ nav ul li a:hover {
     color: #4CAF50;
 }
 
-/* Estilo principal da página */
+main.m {
+    background-color: #e04b5a;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 #principal {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 80px;
-    padding: 80px;
-    background-color: #fff;
+    padding: 40px;
+    background-color: #e04b5a;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -111,91 +105,57 @@ nav ul li a:hover {
 #sec_ctd h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 48px;
-    color: #333;
+    color: #ffffff;
 }
 
 #sec_ctd p {
     font-size: 18px;
-    color: #555;
+    color: #fffcfc;
     line-height: 1.8;
 }
 
-/* Estilo da seção de cartazes */
 #second {
-    
+    display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin-top: 30px;
+    gap: 20px;
 }
 
-.cartaz {
-    text-decoration: none;
+#descricao {
+    width: 60%;
 }
 
-.capa {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+#acesso {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-.capa:hover {
-    transform: scale(1.05);
+#acesso a {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    transition: transform 0.2s, background-color 0.2s;
 }
 
-/* Estilo do rodapé */
+#acesso a:hover {
+    background-color: #e04b5a;
+    transform: scale(1.1);
+}
+
+#acesso img {
+    width: 40px;
+    height: 40px;
+}
+
 footer {
-    margin-top: 40px;
-    padding: 20px;
     background-color: #333;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
-
-#contato a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-#social a img {
-    width: 30px;
-    margin-left: 10px;
-    transition: opacity 0.2s;
-}
-
-#social a img:hover {
-    opacity: 0.7;
-}
-
-/* Estilo responsivo */
-@media (max-width: 768px) {
-    #principal {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #sec_ctd {
-        max-width: 100%;
-    }
-
-    #second {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .capa {
-        margin-bottom: 20px;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin-bottom: 10px;
-    }
-}
-
