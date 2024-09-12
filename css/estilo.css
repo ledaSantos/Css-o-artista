@@ -33,28 +33,24 @@
     color: #ddd;
   }
   
-  h1, h2 {
-    font-family: 'Amatic SC';
-
-  }
   
   
-  footer {
+footer {
     background-color: #333;
     color: #ddd;
   }
 
-  body {
+body {
     font-family: 'Poppins';
     background-color: white;
     color: #fff;
   }
   
-  header, #principal, #second, #contato, #stream {
+header, #principal, #second, #contato, #stream {
       display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
   }
 
 header {
@@ -118,10 +114,13 @@ nav ul li a:hover {
 }
 
 #sec_ctd h1 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 48px;
-    color: #ffffff;
-}
+    font-family: 'Amatic SC';
+    font-size: 40px;
+    text-align: end;
+    
+
+  }
+  
 
 #sec_ctd p {
     font-size: 18px;
@@ -134,6 +133,7 @@ nav ul li a:hover {
     
     justify-content: space-between;
     margin-top: 30px;
+    
 }
 
 #second a{
