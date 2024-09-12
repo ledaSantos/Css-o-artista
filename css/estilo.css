@@ -8,7 +8,11 @@
 
 .link-menu {
     color: #fff;
-    background-color: #382727;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10%;
+    background-color: #555;
+    
   }
   
   .f {
