@@ -13,7 +13,8 @@
     border-radius: 10%;
     background-color: #555;
     
-  }
+}
+    
   
   .f {
     background-color: #5b305a;
@@ -37,9 +38,6 @@
 
   }
   
-  #second a{
-    color: #fff;
-  }
   
   footer {
     background-color: #333;
@@ -66,9 +64,6 @@ header {
     gap: 50px;
 }
 
-#logo img {
-    width: 150px;
-}
 
 nav  {
     display: flex;
@@ -76,6 +71,25 @@ nav  {
     gap: 15;
     flex: 1;
     justify-content: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
 }
 
 #principal {
@@ -121,6 +135,16 @@ nav  {
     justify-content: space-between;
     margin-top: 30px;
 }
+
+#second a{
+    color: #fff;
+  }
+
+
+#logo img {
+    width: 150px;
+}
+
 
 .cartaz {
     text-decoration: none;
