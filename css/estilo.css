@@ -31,6 +31,8 @@
   main {
     background-color: #333;
     color: #ddd;
+    display: flex;
+    justify-content: center;
   }
   
   
@@ -89,43 +91,41 @@ nav ul li a:hover {
 }
 
 #principal {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 80px;
-    padding: 80px;
-    background-color: #2b2b2b;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba;
+    gap: 70px;
+    padding: 30px;
 }
 
 #principal figure {
-    margin-right: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: end;
 }
 
 #principal img {
-    width: 350px;
-    height: auto;
-    border-radius: 10px;
+    width: 300px;
 }
 
 #sec_ctd {
-    max-width: 60%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 60px;
+    width: 700px;
 }
 
 #sec_ctd h1 {
+    display: flex;
+    flex: 1;
     font-family: 'Amatic SC';
     font-size: 40px;
-    text-align: end;
-    
+    justify-content: end;  
 
   }
   
 
 #sec_ctd p {
-    font-size: 18px;
-    color: #ffffff;
-    line-height: 1.8;
+    width: 450px;
+    text-align: justify;
 }
 
 
@@ -200,10 +200,6 @@ footer {
     margin: 100px ;
     padding: 30px ;
     border: 3px solid rgb(0, 0, 0);
-}
-
-#principal{
-    background-color: #5b305a;
 }
 
 
