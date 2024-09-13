@@ -6,6 +6,11 @@
     box-sizing: border-box;
   }
 
+  #logo{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
 .link-menu {
     color: #fff;
     padding: 10px;
@@ -66,7 +71,7 @@ header {
 nav  {
     display: flex;
     list-style: none;
-    gap: 15;
+    gap: 15px;
     flex: 1;
     justify-content: center;
 }
