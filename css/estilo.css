@@ -164,19 +164,23 @@ nav ul li a:hover {
 
 
 footer {
+    
     margin-top: 40px;
     padding: 20px;
     background-color: #333;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Espaço entre os itens */
     align-items: center;
-}
+    gap: 20px;}
 
 #contato a {
     color: white;
     text-decoration: none;
     font-size: 16px;
+    flex: 1;
+    
+    
 }
 
 #social a img {
@@ -190,10 +194,17 @@ footer {
 }
 
 
+/*//////////////Filme////////////////////////////*/
 
+#descricao{
+    margin: 100px ;
+    padding: 30px ;
+    border: 3px solid rgb(0, 0, 0);
+}
 
-
-
+#principal{
+    background-color: #5b305a;
+}
 
 
 
